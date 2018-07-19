@@ -1,3 +1,11 @@
+configserver:
+    name: Example server 
+    status: Connected to the Example config server!
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: my-secret-token-to-change-in-production
 eureka:
   instance:
     prefer-ip-address: true
